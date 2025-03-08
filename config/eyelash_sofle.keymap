@@ -72,7 +72,7 @@
 &mkp RCLK  &trans    &trans  &trans    &trans      &trans         &mkp LCLK        &trans     &trans     &trans        &trans                &trans
             >;
 
-            display-name = "Secondary";
+            display-name = "Symbol";
             sensor-bindings = <&scroll_encoder>;
         };
 
@@ -98,7 +98,7 @@
 &trans  &trans        &trans          &trans        &trans        &trans          &rgb_ug RGB_TOG  &trans           &trans           &trans           &trans           &trans
             >;
 
-            display-name = "Settings";
+            display-name = "Config";
             sensor-bindings = <&scroll_encoder>;
         };
     };
