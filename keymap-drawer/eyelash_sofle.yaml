@@ -207,7 +207,7 @@ layers:
   - RGB EFR
   - RGB EFF
   - RGB SPD
-  - RGB BRI
+  - RGB SPI
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
