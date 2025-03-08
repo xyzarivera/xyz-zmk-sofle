@@ -56,11 +56,11 @@ layers:
   - GLOBE
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '[', h: '$$mdi:apple-keyboard-command$$', s: '{'}
-  - {t: '$$mdi:keyboard-space$$', h: Symbol}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '[', h: Symbol, s: '{'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - {t: ']', h: '$$mdi:apple-keyboard-command$$', s: '}'}
+  - {t: ']', h: Fn, s: '}'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - GLOBE
