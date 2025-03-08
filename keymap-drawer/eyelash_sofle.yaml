@@ -1,5 +1,5 @@
 layers:
-  LAYER0:
+  Base:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -57,14 +57,14 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {t: '[', h: '$$mdi:apple-keyboard-command$$', s: '{'}
-  - {t: '$$mdi:keyboard-space$$', h: layer1}
+  - {t: '$$mdi:keyboard-space$$', h: Secondary}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: ']', h: '$$mdi:apple-keyboard-command$$', s: '}'}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - GLOBE
-  layer1:
+  Secondary:
   - {t: '`', s: '~'}
   - '!'
   - '@'
