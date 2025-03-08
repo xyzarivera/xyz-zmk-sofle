@@ -85,6 +85,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
             >;
 
+            display-name = "Fn";
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
@@ -97,6 +98,7 @@
 &trans  &trans        &trans          &trans        &trans        &trans          &rgb_ug RGB_TOG  &trans           &trans           &trans           &trans           &trans
             >;
 
+            display-name = "Settings";
             sensor-bindings = <&scroll_encoder>;
         };
     };
