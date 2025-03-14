@@ -59,8 +59,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-esc$$', h: Symbol}
   - PLAY PAUSE
-  - {t: '$$mdi:backspace$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - F14
@@ -125,7 +125,7 @@ layers:
   - {type: held}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
