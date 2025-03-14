@@ -55,13 +55,13 @@ layers:
   - $$mdi:volume-off$$
   - GLOBE
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '[', h: Symbol, s: '{'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: ']', h: Fn, s: '}'}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-command$$'}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-control$$
   - GLOBE
   Symbol:
@@ -126,7 +126,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
