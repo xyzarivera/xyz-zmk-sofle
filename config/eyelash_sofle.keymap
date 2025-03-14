@@ -52,11 +52,11 @@
 
         Base {
             bindings = <
-&kp ESC           &kp N1   &kp N2            &kp N3               &kp N4                  &kp N5                &kp UP_ARROW     &kp N6               &kp N7                   &kp N8                   &kp N9             &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q    &kp W             &kp E                &kp R                   &kp T                 &kp DOWN_ARROW   &kp Y                &kp U                    &kp I                    &kp O              &kp P     &kp BSLH
-&kp LEFT_CONTROL  &kp A    &kp S             &kp D                &kp F                   &kp G                 &kp LEFT_ARROW   &kp H                &kp J                    &kp K                    &kp L              &kp SEMI  &kp APOS
-&kp LSHFT         &kp Z    &kp X             &kp C                &kp V                   &kp B                 &kp RIGHT_ARROW  &kp N                &kp M                    &kp COMMA                &kp DOT            &kp FSLH  &kp RIGHT_SHIFT
-&kp C_MUTE        &kp F13  &kp LEFT_CONTROL  &mt LEFT_ALT ESCAPE  &mt LEFT_COMMAND SPACE  &lt 1 LEFT_BRACKET    &kp ENTER        &lt 2 RIGHT_BRACKET  &mt RIGHT_COMMAND ENTER  &mt RIGHT_ALT BACKSPACE  &kp RIGHT_CONTROL  &kp F14
+&kp ESC           &kp N1   &kp N2        &kp N3            &kp N4     &kp N5          &none             &kp N6           &kp N7     &kp N8             &kp N9         &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q    &kp W         &kp E             &kp R      &kp T           &none             &kp Y            &kp U      &kp I              &kp O          &kp P     &kp BSLH
+&kp LEFT_CONTROL  &kp A    &kp S         &kp D             &kp F      &kp G           &kp K_PREVIOUS    &kp H            &kp J      &kp K              &kp L          &kp SEMI  &kp APOS
+&kp LSHFT         &kp Z    &kp X         &kp C             &kp V      &kp B           &kp K_NEXT        &kp N            &kp M      &kp COMMA          &kp DOT        &kp FSLH  &kp RIGHT_SHIFT
+&kp C_MUTE        &kp F13  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE  &lt 1 ESCAPE    &kp K_PLAY_PAUSE  &lt 2 BACKSPACE  &kp ENTER  &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp F14
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -65,11 +65,11 @@
 
         Secondary {
             bindings = <
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTERISK          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DELETE
-&kp TILDE  &trans    &trans  &trans    &trans      &trans         &mmv MOVE_DOWN   &kp MINUS  &kp EQUAL  &trans                &trans                &trans                 &trans
-&trans     &trans    &trans  &trans    &trans      &trans         &mmv MOVE_LEFT   &kp LEFT   &kp DOWN   &kp UP_ARROW          &kp RIGHT             &trans                 &trans
-&trans     &trans    &trans  &trans    &trans      &trans         &mmv MOVE_RIGHT  &trans     &trans     &trans                &trans                &trans                 &trans
-&mkp RCLK  &trans    &trans  &trans    &trans      &trans         &mkp LCLK        &trans     &trans     &mt RIGHT_ALT DELETE  &trans                &trans
+&trans     &trans           &trans       &trans    &trans                &trans              &mmv MOVE_UP     &trans             &trans                 &trans        &trans                &trans                 &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR            &kp PERCENT         &mmv MOVE_DOWN   &kp CARET          &kp AMPERSAND          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp GRAVE  &trans           &trans       &trans    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &mmv MOVE_LEFT   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp MINUS     &kp EQUAL             &trans                 &kp BACKSLASH
+&trans     &trans           &trans       &trans    &trans                &trans              &mmv MOVE_RIGHT  &trans             &trans                 &trans        &trans                &trans                 &trans
+&mkp RCLK  &trans           &trans       &trans    &trans                &trans              &mkp LCLK        &trans             &trans                 &trans        &trans                &trans
             >;
 
             display-name = "Symbol";
@@ -78,11 +78,11 @@
 
         Fn {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6  &kp F7  &kp F8  &kp F9   &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp F11  &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans   &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &kp F11    &kp F12  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans   &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
             >;
 
             display-name = "Fn";
