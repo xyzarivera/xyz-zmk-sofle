@@ -65,11 +65,11 @@
 
         Secondary {
             bindings = <
-&trans     &trans           &trans       &trans    &trans                &trans              &mmv MOVE_UP     &trans             &trans                 &trans        &trans                &trans                 &trans
-&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR            &kp PERCENT         &mmv MOVE_DOWN   &kp CARET          &kp AMPERSAND          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
-&kp GRAVE  &trans           &trans       &trans    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &mmv MOVE_LEFT   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp MINUS     &kp EQUAL             &trans                 &kp BACKSLASH
-&trans     &trans           &trans       &trans    &trans                &trans              &mmv MOVE_RIGHT  &trans             &trans                 &trans        &trans                &trans                 &trans
-&mkp RCLK  &trans           &trans       &trans    &trans                &trans              &mkp LCLK        &trans             &kp DELETE             &trans        &trans                &trans
+&trans     &trans           &trans            &trans             &trans                &trans                   &mmv MOVE_UP     &trans     &trans         &trans        &trans                &trans                 &trans
+&kp TILDE  &kp EXCLAMATION  &kp AT_SIGN       &kp HASH           &kp DOLLAR            &kp PERCENT              &mmv MOVE_DOWN   &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
+&kp GRAVE  &trans           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS    &mmv MOVE_LEFT   &kp MINUS  &kp EQUAL      &trans        &trans                &trans                 &kp BACKSLASH
+&trans     &trans           &trans            &trans             &kp LEFT_BRACE        &kp RIGHT_BRACE          &mmv MOVE_RIGHT  &kp UNDER  &kp PLUS       &trans        &trans                &trans                 &trans
+&mkp RCLK  &trans           &trans            &trans             &trans                &trans                   &mkp LCLK        &trans     &kp DELETE     &trans        &trans                &trans
             >;
 
             display-name = "Symbol";
