@@ -68,7 +68,7 @@
 &trans     &trans           &trans       &trans    &trans                &trans              &mmv MOVE_UP     &trans             &trans                 &trans        &trans                &trans                 &trans
 &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN  &kp HASH  &kp DOLLAR            &kp PERCENT         &mmv MOVE_DOWN   &kp CARET          &kp AMPERSAND          &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE
 &kp GRAVE  &trans           &trans       &trans    &kp LEFT_PARENTHESIS  &kp LEFT_BRACKET    &mmv MOVE_LEFT   &kp RIGHT_BRACKET  &kp RIGHT_PARENTHESIS  &kp MINUS     &kp EQUAL             &trans                 &kp BACKSLASH
-&kp F13    &trans           &trans       &trans    &trans                &trans              &mmv MOVE_RIGHT  &trans             &trans                 &trans        &trans                &trans                 &kp F14
+&trans     &trans           &trans       &trans    &trans                &trans              &mmv MOVE_RIGHT  &trans             &trans                 &trans        &trans                &trans                 &trans
 &mkp RCLK  &trans           &trans       &trans    &trans                &trans              &mkp LCLK        &trans             &kp DELETE             &trans        &trans                &trans
             >;
 
@@ -78,11 +78,11 @@
 
         Fn {
             bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &kp F11    &kp F12  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
+&trans                                &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &trans  &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &trans
+&trans                                &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &kp F11    &kp F12  &trans
+&trans                                &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans
+&kp C_AC_NEXT_KEYBOARD_LAYOUT_SELECT  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans   &trans
+&trans                                &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
             >;
 
             display-name = "Fn";
