@@ -29,13 +29,13 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - A
   - S
-  - D
-  - F
+  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
   - G
   - PREVIOUS
   - H
-  - J
-  - K
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
