@@ -6,7 +6,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-5$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -19,7 +19,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:brightness-7$$
   - Y
   - U
   - I
