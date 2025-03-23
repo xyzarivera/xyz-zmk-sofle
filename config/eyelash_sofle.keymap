@@ -28,7 +28,7 @@
 
 &lt {
     flavor = "balanced";
-    tapping-term-ms = <175>;
+    tapping-term-ms = <200>;
 };
 
 / {
@@ -46,7 +46,7 @@
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <180>;
             quick-tap-ms = <0>;
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
