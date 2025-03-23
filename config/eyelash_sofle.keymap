@@ -84,11 +84,11 @@
 
         Navi {
             bindings = <
-&none  &none           &none         &none             &none             &none    &none  &none     &none         &none          &none      &none  &none
-&none  &none           &none         &none             &none             &none    &none  &none     &kp LG(LEFT)  &kp LG(RIGHT)  &none      &none  &none
-&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &none    &none  &kp LEFT  &kp DOWN      &kp UP         &kp RIGHT  &none  &none
-&none  &none           &none         &none             &none             &none    &none  &none     &kp LA(LEFT)  &kp LA(RIGHT)  &none      &none  &none
-&none  &none           &none         &none             &none             &none    &none  &none     &none         &none          &none      &none
+&none  &none           &none         &none             &none             &none    &none  &none                   &none         &none          &none              &none  &none
+&none  &none           &none         &none             &none             &none    &none  &kp LS(LG(LEFT_ARROW))  &kp LG(LEFT)  &kp LG(RIGHT)  &kp LS(LG(RIGHT))  &none  &none
+&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &none    &none  &kp LEFT                &kp DOWN      &kp UP         &kp RIGHT          &none  &none
+&none  &none           &none         &none             &none             &none    &none  &kp LA(LS(LEFT_ARROW))  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LS(LA(RIGHT))  &none  &none
+&none  &none           &none         &none             &none             &none    &none  &none                   &none         &none          &none              &none
             >;
 
             display-name = "Navi";
