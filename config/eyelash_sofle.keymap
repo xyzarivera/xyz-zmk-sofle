@@ -98,11 +98,11 @@
         Mouse {
             display-name = "Mouse";
             bindings = <
-&none  &none           &none         &none             &none             &none    &none  &none           &none           &none            &none            &none      &none
-&none  &none           &none         &none             &none             &none    &none  &none           &mkp LCLK       &mmv MOVE_UP     &mkp RCLK        &none      &none
-&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &none    &none  &msc SCRL_UP    &mmv MOVE_LEFT  &mmv MOVE_DOWN   &mmv MOVE_RIGHT  &mkp MCLK  &none
-&none  &none           &none         &none             &none             &none    &none  &msc SCRL_DOWN  &msc SCRL_LEFT  &msc SCRL_RIGHT  &none            &none      &none
-&none  &none           &none         &none             &none             &none    &none  &none           &none           &none            &none            &none
+&none  &none           &none         &none             &none             &none    &none  &none           &none            &none           &none            &none      &none
+&none  &none           &none         &none             &none             &none    &none  &none           &mkp LCLK        &mmv MOVE_UP    &mkp RCLK        &none      &none
+&none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &none    &none  &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MCLK  &none
+&none  &none           &none         &none             &none             &none    &none  &msc SCRL_UP    &msc SCRL_RIGHT  &msc SCRL_LEFT  &none            &none      &none
+&none  &none           &none         &none             &none             &none    &none  &none           &none            &none           &none            &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
