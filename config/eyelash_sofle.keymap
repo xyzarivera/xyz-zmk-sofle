@@ -84,11 +84,11 @@
 
         Symbols {
             bindings = <
-&none  &none      &none              &none              &none        &none    &none  &none  &none       &none                 &none                  &none          &none
-&none  &kp TILDE  &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE   &kp AT       &none    &none  &none  &kp UNDER   &kp EQUAL             &kp PLUS               &kp PIPE       &none
-&none  &kp GRAVE  &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &kp CARET    &none    &none  &none  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &none
-&none  &kp EXCL   &kp LEFT_BRACE     &kp RIGHT_BRACE    &kp PERCENT  &none    &none  &none  &kp MINUS   &kp LESS_THAN         &kp GREATER_THAN       &kp HASH       &none
-&none  &none      &none              &none              &none        &none    &none  &none  &none       &none                 &none                  &none
+&none  &none      &none             &none              &none        &none    &none  &none  &none       &none                 &none                  &none          &none
+&none  &kp TILDE  &kp AMPERSAND     &kp ASTERISK       &kp AT       &none    &none  &none  &kp UNDER   &kp EQUAL             &kp PLUS               &kp PIPE       &none
+&none  &kp GRAVE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp CARET    &none    &none  &none  &kp DOLLAR  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BACKSLASH  &none
+&none  &kp EXCL   &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp PERCENT  &none    &none  &none  &kp MINUS   &kp LESS_THAN         &kp GREATER_THAN       &kp HASH       &none
+&none  &none      &none             &none              &none        &none    &none  &none  &none       &none                 &none                  &none
             >;
 
             display-name = "Symbols";
