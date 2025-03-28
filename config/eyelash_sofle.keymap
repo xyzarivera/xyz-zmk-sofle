@@ -38,10 +38,10 @@
     combos {
         compatible = "zmk,combos";
 
-        caps_word {
+        combo_caps_word {
             bindings = <&caps_word>;
-            key-positions = <44 46>;
-            require-prior-idle-ms = <100>;
+            key-positions = <40 50>;
+            require-prior-idle-ms = <0>;
         };
     };
 
