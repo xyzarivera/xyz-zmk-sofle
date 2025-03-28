@@ -391,5 +391,5 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
 combos:
-- p: [44, 46]
+- p: [40, 50]
   k: $$mdi:alpha-w-box$$
