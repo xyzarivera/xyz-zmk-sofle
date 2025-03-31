@@ -42,6 +42,7 @@
             bindings = <&caps_word>;
             key-positions = <40 50>;
             require-prior-idle-ms = <0>;
+            layers = <0>;
         };
     };
 
