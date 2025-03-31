@@ -393,3 +393,4 @@ layers:
 combos:
 - p: [40, 50]
   k: $$mdi:alpha-w-box$$
+  l: [QWERTY]
