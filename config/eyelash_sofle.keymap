@@ -51,24 +51,24 @@
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "tap-preferred";
+            flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
             label = "Homerow Mod";
-            require-prior-idle-ms = <150>;
-            quick-tap-ms = <150>;
+            require-prior-idle-ms = <100>;
+            quick-tap-ms = <175>;
         };
 
         hms: homerow_mod_shift {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
-            tapping-term-ms = <175>;
+            tapping-term-ms = <200>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
 
             label = "Homerow Mod Shift";
-            quick-tap-ms = <150>;
-            require-prior-idle-ms = <150>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <100>;
         };
 
         hml: homerow_mod_left {
@@ -131,11 +131,11 @@
 
         QWERTY {
             bindings = <
-&lt 5 ESCAPE  &kp N1              &kp N2           &kp N3               &kp N4               &kp N5          &msc SCRL_DOWN    &kp N6       &kp N7                &kp N8                &kp N9            &kp N0                 &lt 5 BACKSPACE
-&kp GRAVE     &kp Q               &kp W            &kp E                &kp R                &kp T           &msc SCRL_UP      &kp Y        &kp U                 &kp I                 &kp O             &kp P                  &kp BSLH
-&lt 3 TAB     &hmsl LEFT_SHIFT A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_COMMAND F  &lt 2 G         &kp C_PREVIOUS    &kp H        &hmr RIGHT_COMMAND J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmsr LEFT_SHIFT SEMI  &kp APOS
-&kp F13       &kp Z               &kp X            &kp C                &kp V                &kp B           &kp C_NEXT        &kp N        &kp M                 &kp COMMA             &kp DOT           &kp FSLH               &mo 3
-&kp C_MUTE    &kp ENTER           &kp BACKSPACE    &kp LEFT_BRACKET     &lt 1 SPACE          &lt 4 ESCAPE    &kp C_PLAY_PAUSE  &lt 4 ENTER  &lt 1 BACKSPACE       &kp RIGHT_BRACKET     &kp SPACE         &kp ESCAPE
+&lt 5 ESCAPE  &kp N1            &kp N2          &kp N3              &kp N4              &kp N5          &msc SCRL_DOWN    &kp N6       &kp N7               &kp N8               &kp N9           &kp N0               &lt 5 BACKSPACE
+&kp GRAVE     &kp Q             &kp W           &kp E               &kp R               &kp T           &msc SCRL_UP      &kp Y        &kp U                &kp I                &kp O            &kp P                &kp BSLH
+&lt 3 TAB     &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_COMMAND F  &lt 2 G         &kp C_PREVIOUS    &kp H        &hm RIGHT_COMMAND J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm LEFT_SHIFT SEMI  &kp APOS
+&kp F13       &kp Z             &kp X           &kp C               &kp V               &kp B           &kp C_NEXT        &kp N        &kp M                &kp COMMA            &kp DOT          &kp FSLH             &mo 3
+&kp C_MUTE    &kp ENTER         &kp BACKSPACE   &kp LEFT_BRACKET    &lt 1 SPACE         &lt 4 ESCAPE    &kp C_PLAY_PAUSE  &lt 4 ENTER  &lt 1 BACKSPACE      &kp RIGHT_BRACKET    &kp SPACE        &kp ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
