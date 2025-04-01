@@ -70,6 +70,13 @@
             quick-tap-ms = <175>;
             require-prior-idle-ms = <100>;
         };
+
+        tl: toggle_layer {
+            compatible = "zmk,behavior-toggle-layer";
+            label = "Toggle Layer";
+            #binding-cells = <1>;
+            toggle-mode = "flip";
+        };
     };
 
     keymap {
@@ -121,7 +128,7 @@
 &none  &none           &none         &none             &none             &none    &none  &none           &mkp LCLK        &mmv MOVE_UP    &mkp RCLK        &none      &none
 &none  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_COMMAND  &none    &none  &msc SCRL_DOWN  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mkp MCLK  &none
 &none  &none           &none         &none             &none             &none    &none  &msc SCRL_UP    &msc SCRL_RIGHT  &msc SCRL_LEFT  &none            &none      &none
-&none  &none           &none         &none             &none             &none    &none  &none           &none            &none           &none            &none
+&none  &none           &none         &none             &none             &tl 3    &none  &none           &none            &none           &none            &none
             >;
 
             sensor-bindings = <&scroll_encoder>;
