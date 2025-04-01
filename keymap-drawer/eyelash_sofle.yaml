@@ -56,13 +56,13 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '[', h: '$$mdi:apple-keyboard-shift$$', s: '{'}
+  - {t: '[', s: '{'}
   - {t: '$$mdi:keyboard-space$$', h: Symbols}
-  - {t: '$$mdi:keyboard-esc$$', h: Macros}
+  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - PLAY PAUSE
-  - {t: '$$mdi:keyboard-return$$', h: Macros}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace$$', h: Symbols}
-  - {t: ']', h: '$$mdi:apple-keyboard-shift$$', s: '}'}
+  - {t: ']', s: '}'}
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-esc$$
   Symbols:
@@ -318,9 +318,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
