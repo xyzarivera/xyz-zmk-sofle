@@ -28,7 +28,7 @@ layers:
   - P
   - {t: \, s: '|'}
   - $$mdi:keyboard-tab$$
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - {t: D, s: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-command$$'}
@@ -38,7 +38,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-command$$'}
   - {t: K, s: '$$mdi:apple-keyboard-control$$'}
   - {t: L, s: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, s: ':'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', s: '"'}
   - F13
   - Z
@@ -56,9 +56,9 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '[', s: '{'}
+  - {t: '[', h: '$$mdi:apple-keyboard-shift$$', s: '{'}
   - {t: '$$mdi:keyboard-space$$', h: Symbols}
-  - '&shift_escape_tap'
+  - {t: '$$mdi:keyboard-esc$$', h: Macros}
   - PLAY PAUSE
   - {t: '$$mdi:keyboard-return$$', h: Macros}
   - {t: '$$mdi:backspace$$', h: Symbols}
@@ -318,9 +318,9 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: held}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: '$$mdi:minus-circle-outline$$', type: held alternate}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
